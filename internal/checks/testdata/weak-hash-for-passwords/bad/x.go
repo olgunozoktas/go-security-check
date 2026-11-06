@@ -1,0 +1,5 @@
+package x
+
+import "crypto/md5"
+
+func hashPassword(password string) [16]byte { return md5.Sum([]byte(password)) }
