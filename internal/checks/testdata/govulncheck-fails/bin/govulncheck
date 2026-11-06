@@ -1,0 +1,3 @@
+#!/bin/sh
+# A govulncheck that fails (exit 1), for the fail-closed test.
+exit 1
